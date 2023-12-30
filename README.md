@@ -1,9 +1,9 @@
 # BruteKitCOT
-coming soon...
-Development leads....
-GBPUAT backend seems to use .net as server side
+coming soon...\n
+Development leads....\n
+GBPUAT backend seems to use .net as server side\n
 
-this is GBPUAT ccf pass brute force script
+this is GBPUAT ccf pass brute force script\n
 
 package would be required
 >libcurl
