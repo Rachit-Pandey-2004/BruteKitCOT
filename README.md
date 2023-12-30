@@ -1,5 +1,8 @@
 # BruteKitCOT
 coming soon...
+Development leads....
+GBPUAT backend seems to use .net as server side
+
 this is GBPUAT ccf pass brute force script
 
 package would be required
