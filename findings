@@ -3,8 +3,8 @@ HTTP/1.1 forward.http.proxy:8080
 
 
 need to connect to local network to carry the attack 
-suggest places are lIBRARY IN YOUR LOCAL MACHINE WITH IP ROTATOR OR REVERSE PROXY 
-YOU CAN USE CCF MACHINES ALSO BUT THEY WILL BE ABLE TO ACCESS THE LOGS FILE FOM THERE LOCAL MACHINE SO NOT SUGGESTED METHOD
+suggest places are lIBRARY with YOUR LOCAL MACHINE WITH IP ROTATOR OR REVERSE PROXY 
+YOU CAN USE CCF MACHINES ALSO BUT THEY WILL BE ABLE TO ACCESS THE LOGS FILE FrOM THERE LOCAL MACHINE SO NOT SUGGESTED
 
 THERE IS A LOGIN LIMIT OF A ACCOUNT BUT IF THE PASS IS CORRECT THEN SS WILL BE
 ><?xml version='1.0' ?><requestresponse><status><![CDATA[LOGIN]]></status><message><![CDATA[Login failed. You have reached the maximum login limit.]]></message><logoutmessage><![CDATA[You have successfully logged off]]></logoutmessage><state><![CDATA[]]></state></requestresponse> 
