@@ -1,13 +1,13 @@
 array
 
-jump start
+jmp start
 start: nop
 mvi a,00h
 sta 2060h
 mvi c, 06h
 lxi h,2050h
 loop: dcr c
-jz li
+jz l1
 mov d,m
 loop1: inx h
 mov a,m
@@ -16,13 +16,13 @@ jnc loop
 dcr c
 jnz loop1
 mov a,d
-l1:state 2060h
-hot
+l1:sta 2060h
+
 
 swap 2num
 
 jmp start
-start:noq
+start:no
 lhld 2050h
 mov a,h
 mov h,l
