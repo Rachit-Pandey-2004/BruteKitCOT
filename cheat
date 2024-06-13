@@ -1,0 +1,47 @@
+array
+mvi a,00h
+sta 2060h
+mvi c, 06h
+lxi h,2050h
+loop: dcr c
+jz li
+mov d,m
+loop1: inx h
+mov a,m
+cmp d
+jnc loop
+dcr c
+jnz loop1
+mov a,d
+l1:state 2060h
+
+swap 2num
+
+lhld 2050h
+mov a,h
+mov h,l
+mov l,a
+shld 2050h
+
+
+zero address add
+
+mvi b,05h
+push b
+mvi d,08h
+push d
+pop h
+mov a,h
+pop d
+add d
+sta 2060h
+
+carry, sign , parity, zero flag
+mvi a,04h
+mvi b ,07h
+cmp b
+mvi a,00h
+cmp a
+mvi a,04h
+mvi b,02h
+add b
